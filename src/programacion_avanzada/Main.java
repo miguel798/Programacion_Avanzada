@@ -5,6 +5,8 @@
  */
 package programacion_avanzada;
 
+import POO.Fecha;
+
 /**
  *
  * @author MIGUE
@@ -15,6 +17,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Fecha hoy = new Fecha();
         System.out.println("Hola Mundo");
     }
     

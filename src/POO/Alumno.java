@@ -14,7 +14,7 @@ public class Alumno {
     String nombre;
     String  apellidos;
     public int  edad;
-    public double  boleta;
+    public int  boleta;
     public int  semestre;
     
     //Metodo constructor

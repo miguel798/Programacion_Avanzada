@@ -14,22 +14,22 @@ public class Profesor {
     String nombre;
     String  apellidos;
     public int  edad;
-    public double  boleta;
-    public int  semestre;
+    public int  matricula;
+    String  materia_docencia;
     
     //Metodo constructor
     public Profesor(){
-        this.nombre = "Miguel";
-        this.apellidos = "Rocha";
-        this.edad = 18;
-        this.boleta = 2021670044;
-        this.semestre = 2;
+        this.nombre = "Leonardo";
+        this.apellidos = "Aguilar";
+        this.edad = 35;
+        this.matricula = 2007670044;
+        this.materia_docencia = "Calculo Diferencial";
     }
-    public Profesor(String nombre, String apellidos, int edad, int boleta, int semestre){
+    public Profesor(String nombre, String apellidos, int edad, int matricula, String materia_docencia){
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
-        this.boleta = boleta;
-        this.semestre = semestre;
+        this.matricula = matricula;
+        this.materia_docencia = materia_docencia;
     }
 }

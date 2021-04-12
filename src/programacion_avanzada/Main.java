@@ -22,7 +22,7 @@ public class Main {
         Fecha hoy = new Fecha(29, 7, 1987);
         Fecha ayer = new Fecha();
         ayer.anio = 1987;
-        //Alumno alumno1 = new Alumno("Juan", "Solis", 19, 2021670045, 5);
+        Alumno alumno1 = new Alumno("Juan", "Solis", 19, 2021670045, 5);
         Animal animal1 = new Animal("Betobeen", "Gato", "Na", 5, 25);
         System.out.println("Hola Mundo");
     }

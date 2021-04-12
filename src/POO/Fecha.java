@@ -9,13 +9,21 @@ package POO;
  * @author MIGUE
  */
 public class Fecha {
-    //Tipo de dato / identificadorres
-    int dia;
-    int mes;
-    int anio;
+    //Tipo de dato / identificadores
+    public int dia;
+    public int mes;
+    public int anio;
     
     //Metodo constructor
     public Fecha(){
+        this.dia = 10;
+        this.mes = 7;
+        this.anio = 1900;
         
+    }
+    public Fecha(int dia, int mes, int anio){
+        this.dia = dia;
+        this.mes = mes;
+        this.anio = anio;
     }
 }

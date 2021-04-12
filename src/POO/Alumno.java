@@ -19,11 +19,11 @@ public class Alumno {
     
     //Metodo constructor
     public Alumno(){
-        this.nombre = "Miguel";
-        this.apellidos = "Rocha";
-        this.edad = 18;
-        this.boleta = 2021670044;
-        this.semestre = 2;
+        this.nombre = " ";
+        this.apellidos = " ";
+        this.edad = 0;
+        this.boleta = 0;
+        this.semestre = 0;
     }
     public Alumno(String nombre, String apellidos, int edad, int boleta, int semestre){
         this.nombre = nombre;

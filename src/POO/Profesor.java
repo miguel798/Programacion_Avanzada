@@ -19,11 +19,11 @@ public class Profesor {
     
     //Metodo constructor
     public Profesor(){
-        this.nombre = "Leonardo";
-        this.apellidos = "Aguilar";
-        this.edad = 35;
-        this.matricula = 2007670044;
-        this.materia_docencia = "Calculo Diferencial";
+        this.nombre = " ";
+        this.apellidos = " ";
+        this.edad = 0;
+        this.matricula = 0;
+        this.materia_docencia = " ";
     }
     public Profesor(String nombre, String apellidos, int edad, int matricula, String materia_docencia){
         this.nombre = nombre;

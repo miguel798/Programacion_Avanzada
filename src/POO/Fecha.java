@@ -16,9 +16,9 @@ public class Fecha {
     
     //Metodo constructor
     public Fecha(){
-        this.dia = 10;
-        this.mes = 7;
-        this.anio = 1900;
+        this.dia = 0;
+        this.mes = 0;
+        this.anio = 0;
         
     }
     public Fecha(int dia, int mes, int anio){

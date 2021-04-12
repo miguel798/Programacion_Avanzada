@@ -19,11 +19,11 @@ public class Animal {
     
     //Metodo constructor
     public Animal(){
-        this.nombre = "Marcianito";
-        this.tipo = "Perro";
-        this.raza = "Salchicha";
-        this.edad = 10;
-        this.peso = 85;
+        this.nombre = " ";
+        this.tipo = " ";
+        this.raza = " ";
+        this.edad = 0;
+        this.peso = 0;
     }
     public Animal(String nombre, String tipo, String raza, int edad, double peso){
         this.nombre = nombre;

@@ -11,13 +11,13 @@ package POO;
  */
 public class Profesor {
     //Tipo de dato / identificadorres
-    String nombre;
-    String  apellidos;
+    public String nombre;
+    public String  apellidos;
     public int  edad;
     public int  matricula;
-    String  materia_docencia;
+    public String  materia_docencia;
     
-    //Metodo constructor
+    //Método constructor por defecto
     public Profesor(){
         this.nombre = " ";
         this.apellidos = " ";
@@ -25,6 +25,8 @@ public class Profesor {
         this.matricula = 0;
         this.materia_docencia = " ";
     }
+    
+    //Método constructor
     public Profesor(String nombre, String apellidos, int edad, int matricula, String materia_docencia){
         this.nombre = nombre;
         this.apellidos = apellidos;

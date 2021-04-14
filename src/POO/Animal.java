@@ -11,13 +11,13 @@ package POO;
  */
 public class Animal {
     //Tipo de dato / identificadorres
-    String nombre;
-    String tipo;
-    String raza;
+    public String nombre;
+    public String tipo;
+    public String raza;
     public int  edad;
     public double  peso;
     
-    //Metodo constructor
+    //Método constructor por defecto
     public Animal(){
         this.nombre = " ";
         this.tipo = " ";
@@ -25,6 +25,8 @@ public class Animal {
         this.edad = 0;
         this.peso = 0;
     }
+    
+    //Método constructor
     public Animal(String nombre, String tipo, String raza, int edad, double peso){
         this.nombre = nombre;
         this.tipo = tipo;

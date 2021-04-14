@@ -21,8 +21,10 @@ public class Main {
      */
     public static void main(String[] args) {
         Fecha hoy = new Fecha(29, 7, 1987);
-        //Fecha ayer = new Fecha();
-        //ayer.anio = 1958;
+        Fecha ayer = new Fecha();
+        ayer .setdia(12);
+        ayer.setmes(11);
+        System.out.println(ayer.getdia());
         Alumno alumno1 = new Alumno("Juan", "Solis", 19, 2021670045, 5);
         Animal animal1 = new Animal("Betobeen", "Gato", "Na", 5, 25);
         Profesor profesor1 = new Profesor("Leonardo", "Aguilar", 35, 2007670044, "Calculo Diferencial");

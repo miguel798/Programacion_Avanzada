@@ -28,28 +28,29 @@ public class Fecha {
         this.mes = mes;
         this.anio = anio;
     }
-    //set dia
+    
+    //Set
     public void setdia (int dia){
         this.dia = dia;
     }
-    //set mes
+    
     public void setmes (int mes){
         this.mes = mes;
     }
-    //set anio
+    
     public void setanio (int anio){
         this.anio = anio;
     }
     
-    //get dia
+    //Get
     public int getdia(){
         return this.dia;
     }
-    //get mes
+    
     public int getmes(){
         return this.mes;
     }
-    //get anio
+    
     public int getanio(){
         return this.anio;
     }

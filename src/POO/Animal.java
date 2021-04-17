@@ -11,11 +11,11 @@ package POO;
  */
 public class Animal {
     //Tipo de dato / identificadorres
-    public String nombre;
-    public String tipo;
-    public String raza;
-    public int  edad;
-    public double  peso;
+    private String nombre;
+    private String tipo;
+    private String raza;
+    private int  edad;
+    private double  peso;
     
     //Método constructor por defecto
     public Animal(){
@@ -33,5 +33,47 @@ public class Animal {
         this.raza = raza;
         this.edad = edad;
         this.peso = peso;
+    }
+    
+    //Set
+    public void setnombre (String nombre){
+        this.nombre = nombre;
+    }
+
+    public void settipo (String tipo){
+        this.tipo = tipo;
+    }
+
+    public void setaraza (String raza){
+        this.raza = raza;
+    }
+
+    public void setedad (int edad){
+        this.edad = edad;
+    }
+
+    public void setpeso (double peso){
+        this.peso = peso;
+    }
+    
+    //Get
+    public String getnombre(){
+        return this.nombre;
+    }
+
+    public String gettipo(){
+        return this.tipo;
+    }
+    
+    public String getraza(){
+        return this.raza;
+    }
+
+    public int getedad(){
+        return this.edad;
+    }
+
+    public double getpeso(){
+        return this.peso;
     }
 } 

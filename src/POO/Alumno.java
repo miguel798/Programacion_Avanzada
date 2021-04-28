@@ -9,7 +9,7 @@ package POO;
  *
  * @author MIGUE
  */
-public class Alumno {
+public class Alumno{
     //Tipo de dato / identificadorres
     private String nombre;
     private String  apellidos;
@@ -27,7 +27,7 @@ public class Alumno {
     }
     
     //Método constructor
-    public Alumno(String nombre, String apellidos, int edad, int boleta, int semestre){
+    public Alumno(String nombre, String apellidos, int edad, int boleta, int semestre) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;

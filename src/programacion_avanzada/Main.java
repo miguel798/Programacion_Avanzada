@@ -148,7 +148,7 @@ public class Main {
         alumno2.setSemestre(8);
         alumno2.setNombre("Miguel Angel");
         alumno2.setSemestre(2);
+        alumno2.setTipo("Guitarra");
         alumno2.saluda("Carlos");
-        alumno2.saluda();
     }
 }

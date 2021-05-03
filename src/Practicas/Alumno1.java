@@ -20,20 +20,20 @@ public class Alumno1 extends Persona {
         semestre = 0;
     }
 
-    public Alumno1(String nombre, int edad, String dom, String sexo,int semestre) {
-        super(nombre, edad, dom, sexo);
-        this.semestre = semestre;       
+    public Alumno1(int semestre, String nombre, int edad, String dom, String sexo, String tipo) {
+        super(nombre, edad, dom, sexo, tipo);
+        this.semestre = semestre;
     }
     
-    public void saluda(){
-        System.out.println("Hola!, mi nombre es "+super.getNombre()+" y soy alumno.");
-    }
-
     public int getSemestre() {
         return semestre;
     }
 
     public void setSemestre(int semestre) {
         this.semestre = semestre;
-    }   
+    }  
+    
+    public void saluda(){
+        System.out.println("Hola!, mi nombre es "+super.getNombre()+", soy alumno de "+semestre+" semestre y toco la "+super.getTipo());
+    }
 }

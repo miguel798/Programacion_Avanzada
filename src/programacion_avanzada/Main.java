@@ -20,6 +20,10 @@ import POO.Reloj;
 import POO.Silla;
 import POO.Taza;
 import POO.Television;
+import Practicas.Alumno1;
+import Practicas.Fecha1;
+import Practicas.Persona;
+
 
 /**
  *
@@ -31,7 +35,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Fecha
+        /*//Fecha
         Fecha hoy = new Fecha();
         hoy .setdia(12);
         System.out.println("''Fecha''");
@@ -134,10 +138,11 @@ public class Main {
         television1.setvoltaje(10);
         System.out.println("''Television''");
         System.out.println(television1.getvoltaje());
-        System.out.println("\n");
-        
-        
-        
-        //System.out.println("Hola Mundo");
+        System.out.println("\n");*/
+
+        Alumno1 juan = new Alumno1();// una instancia de un objeto de tipo Alumno
+        juan.setSemestre(8);
+        juan.setNombre("Juan Ramiro Maximiliano");
+        juan.saluda();
     }
 }

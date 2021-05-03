@@ -21,8 +21,7 @@ import POO.Silla;
 import POO.Taza;
 import POO.Television;
 import Practicas.Alumno1;
-import Practicas.Fecha1;
-import Practicas.Persona;
+import Practicas.Instrumento;
 
 
 /**
@@ -140,9 +139,16 @@ public class Main {
         System.out.println(television1.getvoltaje());
         System.out.println("\n");*/
 
-        Alumno1 juan = new Alumno1();// una instancia de un objeto de tipo Alumno
+        /*Alumno1 juan = new Alumno1();
         juan.setSemestre(8);
         juan.setNombre("Juan Ramiro Maximiliano");
-        juan.saluda();
+        juan.saluda();*/
+        
+        Alumno1 alumno2 = new Alumno1();
+        alumno2.setSemestre(8);
+        alumno2.setNombre("Miguel Angel");
+        alumno2.setSemestre(2);
+        alumno2.saluda("Carlos");
+        alumno2.saluda();
     }
 }

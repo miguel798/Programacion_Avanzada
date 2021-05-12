@@ -44,35 +44,32 @@ public class Persona  extends Instrumento{
     public int getEdad() {
         return edad;
     }
-
     public void setEdad(int edad) {
         this.edad = edad;
     }
-
     public String getDom() {
         return dom;
     }
-
+    
     public void setDom(String dom) {
         this.dom = dom;
     }
-
+    
     public String getSexo() {
         return sexo;
     }
-
+    
     public void setSexo(String sexo) {
         this.sexo = sexo;
-    }
+    } 
     
     public String getTipo() {
         return tipo;
     }
-
+    
     public void setTipo (String tipo) {
         this.tipo = tipo;
-    }
-    
+    }  
     
     public void saluda(){
         System.out.println("Hola!, mi nombre es "+this.nombre+" y toco la "+super.getTipo());

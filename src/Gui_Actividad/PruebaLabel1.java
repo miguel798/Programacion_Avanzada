@@ -1,4 +1,3 @@
-
 package Gui_Actividad;
 
 import javax.swing.JFrame;

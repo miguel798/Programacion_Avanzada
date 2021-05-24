@@ -23,9 +23,6 @@ public class BotonOpcion extends JFrame{
     private JRadioButton negritaCursivaJRadioButton; // negrita y cursiva
     private ButtonGroup grupoOpciones; // grupo de botones que contiene los botones de opcion
 
-
-
-
     // El constructor de BotonOpcion agrega los objetos JRadioButton a JFrame
     public BotonOpcion (){
         super( "Prueba de RadioButton");
@@ -63,15 +60,12 @@ public class BotonOpcion extends JFrame{
         cursivaJRadioButton.addItemListener(new ManejadorBotonOpcion( tipoLetraCursiva ) );
         negritaCursivaJRadioButton.addItemListener(new ManejadorBotonOpcion( tipoLetraNegritaCursiva ) );
         } 
-
         // clase interna privada para manejar eventos de botones de opción
         private class ManejadorBotonOpcion implements ItemListener {
             private Font tipoLetra;// tipo de letra asociado con este componente de escucha
-            
             public ManejadorBotonOpcion(Font f){
                   tipoLetra = f; // establece el tipo de letra de este componente de escucha
             } 
-
             // maneja los eventos de botones de opción
             public void itemStateChanged( ItemEvent evento ){
             campoTexto.setFont( tipoLetra ); // establece el tipo de letra de campoTexto

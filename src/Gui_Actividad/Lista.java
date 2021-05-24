@@ -21,7 +21,7 @@ public class Lista extends JFrame {
     super( "Prueba de JList" );
     setLayout( new FlowLayout() ); // establece el esquema del marco
     listaJListColores = new JList( nombresColores ); // crea con nombresColores
-    listaJListColores.setVisibleRowCount( 5 ); // muestra cinco ﬁlas a la vez
+    listaJListColores.setVisibleRowCount( 5); // muestra cinco ﬁlas a la vez
     
     // no permite selecciones múltiples
     listaJListColores.setSelectionMode( ListSelectionModel.SINGLE_SELECTION );

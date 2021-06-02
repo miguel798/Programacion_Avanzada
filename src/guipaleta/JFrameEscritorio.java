@@ -34,7 +34,7 @@ public class JFrameEscritorio extends javax.swing.JFrame {
         
         this.jMenuItemEditores.addActionListener(metiche3);
         this.jMenuItemBarras.addActionListener(metiche3);
-        this.jMenuItemSalir.addActionListener(metiche3);
+        this.jMenuItemSalir.addActionListener(metiche2);
     }
 
     /**

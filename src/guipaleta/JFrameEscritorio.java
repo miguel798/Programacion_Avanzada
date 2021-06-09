@@ -13,10 +13,6 @@ import guipaleta.Interfaces.Metiche3;
  * @author MIGUE
  */
 public class JFrameEscritorio extends javax.swing.JFrame {
-
-    /**
-     * Creates new form JFrameEscritorio
-     */
     public JFrameEscritorio() {
         initComponents();
         

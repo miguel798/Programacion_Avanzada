@@ -22,12 +22,6 @@ import POO.Taza;
 import POO.Television;
 import Practicas.Alumno1;
 import Practicas.Instrumento;
-import gui.jFramePrincipalC;
-import gui.BorderLayout1;
-import gui.FlowLayout1;
-import gui.BoxLayout1;
-import gui.GridLayout1;
-import gui.Posicion_Absoluta;
 import java.awt.Color;
 
 
@@ -163,32 +157,5 @@ public class Main {
         /*jFramePrincipalC aux = new jFramePrincipalC();
         aux.setSize(350, 150);
         aux.setVisible(true);*/
-        
-        BorderLayout1 aux1 = new BorderLayout1();
-        aux1.setTitle("Border Layout");
-        aux1.setSize(200, 200);
-        aux1.setVisible(true);
-        
-        FlowLayout1 aux2 = new FlowLayout1();
-        aux2.setTitle("Flow Layout");
-        aux2.setSize(200,200);
-        aux2.setVisible(true);
-        
-        BoxLayout1 aux3 = new BoxLayout1();
-        aux3.setTitle("Box Layout");
-        aux3.setSize(200,200);
-        aux3.setVisible(true);
-        
-        GridLayout1 aux4 = new GridLayout1();
-        aux4.setTitle("Grid Layout");
-        aux4.setSize(200,200);
-        aux4.setVisible(true);
-        
-        Posicion_Absoluta aux5 = new Posicion_Absoluta();
-        aux5.setTitle("Posicion Absoluta");
-        aux5.setSize(200,200);
-        aux5.setVisible(true);
-        
-        
     }
 }

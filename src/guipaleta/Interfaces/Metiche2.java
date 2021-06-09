@@ -16,8 +16,8 @@ import javax.swing.JMenuItem;
 public class Metiche2 implements ActionListener {
 
     @Override
-    public void actionPerformed(ActionEvent a) {
-        JMenuItem item = (JMenuItem)a.getSource();
+    public void actionPerformed(ActionEvent e) {
+        JMenuItem item = (JMenuItem)e.getSource();
         
         if (item.getText().equals("Copiar")){
             System.out.println("Se oprimió el botón Copiar");

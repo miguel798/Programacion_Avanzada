@@ -21,12 +21,7 @@ public class MeticheCaracteres implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         JButton boton = (JButton)e.getSource();
         cadena=Text.getText();
-
         
-        //Botón de porciento
-        if (boton.getText().equals("%")){
-            Text.setText(Text.getText()+"%");
-        }
         //Botón de borrar todo
         if (boton.getText().equals("C")){
             Text.setText("");

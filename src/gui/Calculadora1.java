@@ -51,6 +51,7 @@ public class Calculadora1 extends JFrame{
         this.bd.addActionListener(signos);
         this.b04.addActionListener(signos);
         this.bCE.addActionListener(signos);
+        this.bP.addActionListener(signos);
         
         MeticheCaracteres car = new MeticheCaracteres();
         this.b01.addActionListener(car);
@@ -75,7 +76,6 @@ public class Calculadora1 extends JFrame{
     void Teclado(){
         PI = new JPanel();
         PI.setBackground(RED);
-        PI.setFont(new Font("tahoma", Font.ITALIC,20));
         PI.setLayout(new GridLayout(6, 4, 5, 5));
         //Númericos
         b0=new JButton("0");
@@ -169,10 +169,8 @@ public class Calculadora1 extends JFrame{
 
      
 
- public static void main(String args[])
- {
+ public static void main(String args[]){
      Calculadora1 calc = new Calculadora1();
-     calc.setSize( 300, 800 ); 
- }
-
+     calc.setSize( 300, 800 );
+             }
 }

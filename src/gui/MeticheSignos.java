@@ -13,7 +13,10 @@ public class MeticheSignos implements ActionListener {
     String cadena;
     String n1;
     String n2;
-    String signo;
+    String signo, sig;
+    Double nu1;
+    Double porcentaje;
+    String por;
 
     public MeticheSignos() {
     }
@@ -29,7 +32,6 @@ public class MeticheSignos implements ActionListener {
                 n1=Text.getText();
                 signo="-";
                 Text.setText("");
-                System.out.println("presionaste menos, nuemro 1="+n1);
         }
         }
         //Suma
@@ -65,14 +67,38 @@ public class MeticheSignos implements ActionListener {
             Text.setText(resultado);
         }
         }
-        
+        //Botón CE
         if (boton.getText().equals("CE")){
-            if(signo.equals("")){
-            n1="";
-            Text.setText("");}
-            else {
+            Text.setText("");
+            if (!signo.equals("")){
             n2="";
             Text.setText("");}
+        }
+        
+        n2=Text.getText();
+        if (boton.getText().equals("%")){
+                if(!n2.equals("")){
+                    sig="%";
+                    resultado=calculadora(n1,n2,sig);
+                    if (signo=="+"){
+                        porcentaje=Double.parseDouble(n1)+Double.parseDouble(resultado);
+                        por=porcentaje.toString();
+                        Text.setText(por);
+                    } 
+                    if (signo=="-"){
+                        porcentaje=Double.parseDouble(n1)-Double.parseDouble(resultado);
+                        por=porcentaje.toString();
+                        Text.setText(por);
+                    } 
+                    if (signo=="*"){
+                        Text.setText(resultado);
+                    } 
+                    if (signo=="/"){
+                        porcentaje=Double.parseDouble(n1)/((Double.parseDouble(resultado))/Double.parseDouble(n1));
+                        por=porcentaje.toString();
+                        Text.setText(por);
+                    } 
+                }
         }
     }
     
@@ -91,6 +117,10 @@ public class MeticheSignos implements ActionListener {
         }
         if(signo.equals("/")){
             resultado=Double.parseDouble(n1)/Double.parseDouble(n2);
+        }
+        if(signo.equals("%")){
+            resultado=(Double.parseDouble(n1)*Double.parseDouble(n2))/100;
+            System.out.println(resultado);
         }
         respuesta=resultado.toString();
         return respuesta;

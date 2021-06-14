@@ -99,6 +99,6 @@ public class Examen1 extends JFrame{
     public static void main(String args[])
  {
      Examen1 ex = new Examen1();
-     ex.setSize( 400, 800 ); 
+     ex.setSize( 100, 1800 ); 
  }
 }
